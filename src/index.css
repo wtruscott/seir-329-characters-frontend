@@ -41,6 +41,8 @@ article {
 
 article img{
   height: 200px;
+  max-width: 350px;
+  overflow: hidden;
   width: auto;
   border-radius: 5px;
 }
