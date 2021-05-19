@@ -27,11 +27,12 @@ code {
 article {
   display: grid;
   justify-items: center;
-  max-width: fit-content;
+  width: 15vw;
   background-color: rgb(242, 176, 242);
   margin: 30px;
   border-radius: 5px;
   padding: 15px;
+  overflow: hidden;
   box-shadow:
        inset 0 -3em 3em rgba(0,0,0,0.1),
              0 0  0 2px rgb(255,255,255),
@@ -41,9 +42,7 @@ article {
 
 article img{
   height: 200px;
-  max-width: 350px;
-  overflow: hidden;
-  width: auto;
+  width: 12vw;
   border-radius: 5px;
 }
 
