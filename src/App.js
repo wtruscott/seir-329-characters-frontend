@@ -81,10 +81,10 @@ fetch(url + "/characters/" + character._id, {
 }
   return (
     <div className="App">
-      <h1>CHARACTER LISTING SITE</h1>
+      <h1 className="title">Character Creator</h1>
       <hr />
       <Link to="/create">
-        <button>Add Character</button>
+        <button className="adder">Add Character</button>
       </Link>
       <main>
       <Switch>

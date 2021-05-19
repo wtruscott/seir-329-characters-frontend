@@ -35,31 +35,31 @@ const Form = (props) => {
         type="text"
         name="age"
         placeholder="Age"
-        value={formData.description}
+        value={formData.age}
         onChange={handleChange}
       />
        <input
         type="text"
         name="weapon"
         placeholder="Weapon"
-        value={formData.description}
+        value={formData.weapon}
         onChange={handleChange}
       />
       <input
         type="text"
         name="home"
         placeholder="Home"
-        value={formData.description}
+        value={formData.home}
         onChange={handleChange}
       />
        <input
         type="text"
         name="enemy"
         placeholder="Enemy of Character"
-        value={formData.description}
+        value={formData.enemy}
         onChange={handleChange}
       />
-      <input type="submit" value={props.label} />
+      <input className="creator" type="submit" value={props.label} />
     </form>
   );
 };

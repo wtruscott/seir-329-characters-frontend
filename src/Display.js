@@ -8,12 +8,12 @@ const Display = (props) => {
     <div style={{textAlign: "center"}}>
       {characters.map((character) => (
         <article key={character._id}>
-        <img src={character.img}/>
         <h1>{character.name}</h1>
-        <h3>{character.age}</h3>
-        <h3>{character.home}</h3>
-        <h3>{character.weapon}</h3>
-        <h3>Enemy of {character.enemy}</h3>
+        <img src={character.img}/>
+        <h3>Age: {character.age}</h3>
+        <h3>Home: {character.home}</h3>
+        <h3>Weapon: {character.weapon}</h3>
+        <h3>Archenemy: {character.enemy}</h3>
         <button onClick={() => {
             props.selectCharacter(character)
             props.history.push("/edit")
